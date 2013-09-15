@@ -54,6 +54,8 @@ public:
     // Tells us if the robot is enabled
     static boolean enabled();
 
+    static void enableLock(boolean lock);
+
     // How many joysticks are being received
     static int numJoysticks();
 
